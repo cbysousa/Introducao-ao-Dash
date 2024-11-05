@@ -1,3 +1,3 @@
 #Introducing Dash
 
-this repository contains jupyter notebooks files about the study of Python Dash library
+this repository contains jupyter notebook files about the study of Python Dash library
