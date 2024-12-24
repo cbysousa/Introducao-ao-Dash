@@ -1,5 +1,5 @@
 # Import packages
-from dash import Dash, html, dash_table
+from dash import Dash, html, dash_table #dash_table vai exibir uma tabela de dados
 import pandas as pd
 
 # Incorporate data
@@ -11,7 +11,7 @@ app = Dash(__name__)
 # App layout
 app.layout = [
     html.Div(children='My First App with Data'),
-    dash_table.DataTable(data=df.to_dict('records'), page_size=10)
+    dash_table.DataTable(data=df.to_dict('records'), page_size=10) #Lendo o dataframe dentro da tabela do dash
 ]
 
 # Run the app
